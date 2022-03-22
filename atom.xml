@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SHQi&#39;s World</title>
+  
+  <subtitle>关于时桥谢青的一切</subtitle>
+  <link href="https://sh-shqi.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://sh-shqi.github.io/"/>
+  <updated>2022-03-22T14:04:12.075Z</updated>
+  <id>https://sh-shqi.github.io/</id>
+  
+  <author>
+    <name>Chen Jinfeng</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://sh-shqi.github.io/2022/03/22/hello-world/"/>
+    <id>https://sh-shqi.github.io/2022/03/22/hello-world/</id>
+    <published>2022-03-22T15:01:19.073Z</published>
+    <updated>2022-03-22T14:04:12.075Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
