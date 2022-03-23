@@ -281,16 +281,25 @@
           
             <li class="drawer-box-content_item" style="position: relative;">
               
-                <a href="javascript:;" class="drawer-menu-item-link has-children" @click="openOrCloseMenu(5)">
+                <a href="/friends" class="drawer-menu-item-link">
+                  
+                  <span class="name">指路</span>
+                </a>
+              
+            </li>
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="javascript:;" class="drawer-menu-item-link has-children" @click="openOrCloseMenu(6)">
                   <span>
                     
                       <i class="fas fa-link"></i>
                     
                     <span class="name">更多</span>
                   </span>
-                  <i class="fas fa-chevron-left arrow " :class="{'icon-rotate': isOpen(5)}" aria-hidden="true"></i>
+                  <i class="fas fa-chevron-left arrow " :class="{'icon-rotate': isOpen(6)}" aria-hidden="true"></i>
                 </a>
-                <ul class="drawer-sub-menu" v-if="isOpen(5)">
+                <ul class="drawer-sub-menu" v-if="isOpen(6)">
                   
                   <li>
                     <a href="/gallery">
@@ -439,6 +448,15 @@
                     <i class="fas fa-user" aria-hidden="true"></i>
                   
                   <span class="name">关于</span>
+                </a>
+              
+            </li>
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="/friends" class="menu-item-link" title="指路">
+                  
+                  <span class="name">指路</span>
                 </a>
               
             </li>
@@ -612,7 +630,7 @@
   function typedFn() {
     const el = '#categories-header-desc';
     const type = 'categories';
-    let desc = '愿你如风，被人温柔以待'
+    let desc = '霁月难逢，彩云易散'
     var typed = new Typed(el, {
       strings: [desc],
       startDelay: 100,
