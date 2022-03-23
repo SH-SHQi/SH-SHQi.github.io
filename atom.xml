@@ -6,7 +6,7 @@
   <link href="https://sh-shqi.github.io/atom.xml" rel="self"/>
   
   <link href="https://sh-shqi.github.io/"/>
-  <updated>2022-03-22T14:04:12.075Z</updated>
+  <updated>2022-03-23T13:32:05.961Z</updated>
   <id>https://sh-shqi.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HEXO博客书写操作指南</title>
+    <link href="https://sh-shqi.github.io/2022/03/23/hexo-bo-ke-shu-xie-cao-zuo-zhi-nan/"/>
+    <id>https://sh-shqi.github.io/2022/03/23/hexo-bo-ke-shu-xie-cao-zuo-zhi-nan/</id>
+    <published>2022-03-23T13:22:14.000Z</published>
+    <updated>2022-03-23T13:32:05.961Z</updated>
+    
+    
+    
+    
+    <category term="Technology - Hexo" scheme="https://sh-shqi.github.io/categories/Technology-Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://sh-shqi.github.io/tags/Hexo/"/>
+    
+    <category term="Blog" scheme="https://sh-shqi.github.io/tags/Blog/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

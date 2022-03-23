@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>HEXO博客书写操作指南</title>
+      <link href="/2022/03/23/hexo-bo-ke-shu-xie-cao-zuo-zhi-nan/"/>
+      <url>/2022/03/23/hexo-bo-ke-shu-xie-cao-zuo-zhi-nan/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> Technology - Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2022/03/22/hello-world/"/>
       <url>/2022/03/22/hello-world/</url>
