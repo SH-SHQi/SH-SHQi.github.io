@@ -666,8 +666,16 @@
         <span class="post-detail-header_categories">
           <i class="iconfont iconbookmark1"></i> category：
           
-            <a href="/categories/Technology-Hexo/" class="post-detail-header_category">
-              Technology - Hexo
+            <a href="/categories/Technology/" class="post-detail-header_category">
+              Technology
+            </a>
+          
+            <a href="/categories/Technology/Hexo/" class="post-detail-header_category">
+              Hexo
+            </a>
+          
+            <a href="/categories/Humanities/" class="post-detail-header_category">
+              Humanities
             </a>
           
         </span>
@@ -691,7 +699,73 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        
+        <h2 id=""><a href="#" class="headerlink" title=""></a><h2 class="bamboo-h " id="1.说在前头">1.说在前头</h2><br/></h2><h3 id="-1"><a href="#-1" class="headerlink" title=""></a><h3 class="bamboo-h " id="1.1.创建新文章">1.1.创建新文章</h3><br/></h3><h4 id="-2"><a href="#-2" class="headerlink" title=""></a><h4 class="bamboo-h " id="1.1.1.新建文件">1.1.1.新建文件</h4><br/></h4><p>我们可以通过在Hexo相应的<strong>根目录</strong>下执行下列命令来创建一篇新的文章或者新的页面。</p>
+<p>下面仅以<strong>创建新的文章</strong>为例。</p>
+<p><code>$ hexo new [layout] &lt;title&gt;</code></p>
+<p>我们可以在命令中指定文章的布局（layout），默认为<code>post</code>，我们也可以通过修改<code>_config.yml</code>中的<code>default_layout</code>参数来指定默认布局。</p>
+<h4 id="-3"><a href="#-3" class="headerlink" title=""></a><h4 class="bamboo-h " id="1.1.2.布局（layout）">1.1.2.布局（layout）</h4><br/></h4><p>Hexo有三种默认的布局：<code>post</code>、<code>page</code>和<code>draft</code>。</p>
+<p>在创建这三种不同类型的文件时，它们将会被保存到不同的路径；而我们自定义的其他布局和<code>post</code>相同，都将存储到<code>source/_posts</code>文件夹中。</p>
+<table>
+<thead>
+<tr>
+<th>布局</th>
+<th>路径</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>post</code></td>
+<td><code>source/_posts</code></td>
+</tr>
+<tr>
+<td><code>page</code></td>
+<td><code>source</code></td>
+</tr>
+<tr>
+<td><code>draft</code></td>
+<td><code>source/_drafts</code></td>
+</tr>
+</tbody></table>
+<h3 id="-4"><a href="#-4" class="headerlink" title=""></a><h3 class="bamboo-h " id="1.2.编写文章的工具">1.2.编写文章的工具</h3><br/></h3><h4 id="-5"><a href="#-5" class="headerlink" title=""></a><h4 class="bamboo-h " id="1.2.1.全兼容性">1.2.1.全兼容性</h4><br/></h4><p>Hexo官方是支持以<strong>任何格式</strong>书写文章的，只要我们安装了<strong>相应的渲染插件</strong>。</p>
+<p>例如，Hexo默认安装了<code>hexo-renderere-marked</code>和<code>hexo-renderere-ejs</code>，因此我们不仅可以使用Markdown写作，也可以使用EJS写作。如果我们安装了<code>hexo-renderere-pug</code>，我们甚至可以用Pug模板语言书写文章。</p>
+<div class="note info"><p>当我们进行相应的书写时，要将后缀修改正确。例如，将文章扩展名从md改为ejs，Hexo就会使用<code>hexo-renderere-ejs</code>渲染这个文件，其他格式同理。</p></div>
+
+
+
+
+
+
+
+
+
+<p>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</p>
+<p>Note标签</p>
+<h2 class="bamboo-h " id="note演示效果">note演示效果</h2><br/>
+
+<div class="note "><p>世间洞明皆学问，人情练达即文章</p></div>
+
+<div class="note quote"><p>适合引用一段话</p></div>
+
+<div class="note warning"><p>这是一个警告</p></div>
+
+<div class="note danger"><p>这是一个错误</p></div>
+
+<div class="note success"><p>这是一个成功</p></div>
+
+<div class="note info"><p>这是一个信息</p></div>
+
+<p><strong>上述示例源码</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">&#123;% note, 世间洞明皆学问，人情练达即文章 %&#125;
+
+&#123;% note quote, 适合引用一段话 %&#125;
+
+&#123;% note warning, 这是一个警告 %&#125;
+
+&#123;% note danger, 这是一个错误 %&#125;
+
+&#123;% note success, 这是一个成功 %&#125;
+
+&#123;% note info, 这是一个信息 %&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<div class="note"><p>warning,</p></div>
       </div>
       <div class="post-tags-categories">
         
