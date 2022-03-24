@@ -840,10 +840,8 @@ Do not just seek happiness for yourself. Seek happiness for all. Through kindnes
 <pre class="line-numbers language-none"><code class="language-none">&#123;% blockquote @DevDocs https:&#x2F;&#x2F;twitter.com&#x2F;devdocs&#x2F;status&#x2F;356095192085962752 %&#125;
 NEW: DevDocs now comes with syntax highlighting. http:&#x2F;&#x2F;devdocs.io
 &#123;% endblockquote %&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<blockquote>
-<p>NEW: DevDocs now comes with syntax highlighting. <a target="_blank" rel="noopener" href="http://devdocs.io/">http://devdocs.io</a></p>
-<p><strong>@DevDocs</strong><a target="_blank" rel="noopener" href="https://twitter.com/devdocs/status/356095192085962752">twitter.com/devdocs/status/356095192085962752</a></p>
-</blockquote>
+<div class="note "><p>NEW: DevDocs now comes with syntax highlighting. <a target="_blank" rel="noopener" href="http://devdocs.io/">http://devdocs.io</a> <strong>@DevDocs</strong><a target="_blank" rel="noopener" href="https://twitter.com/devdocs/status/356095192085962752">twitter.com/devdocs/status/356095192085962752</a></p></div>
+
 <p><strong>引用网络上的文章</strong></p>
 <pre class="line-numbers language-none"><code class="language-none">&#123;% blockquote Seth Godin http:&#x2F;&#x2F;sethgodin.typepad.com&#x2F;seths_blog&#x2F;2009&#x2F;07&#x2F;welcome-to-island-marketing.html Welcome to Island Marketing %&#125;
 Every interaction is both precious and an opportunity to delight.
@@ -897,7 +895,8 @@ code snippet
 <td align="left"><code>true</code></td>
 </tr>
 </tbody></table>
-<h3 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h3><p><strong>普通的代码块</strong></p>
+<p><strong>样例</strong></p>
+<p><strong>普通的代码块</strong></p>
 <pre class="line-numbers language-none"><code class="language-none">&#123;% codeblock %&#125;
 alert(&#39;Hello World!&#39;);
 &#123;% endcodeblock %&#125;
@@ -937,7 +936,7 @@ content
 <pre class="line-numbers language-none"><code class="language-none">&#123;% link text url [external] [title] %&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <h2 id="Include-Code"><a href="#Include-Code" class="headerlink" title="Include Code"></a>Include Code</h2><p>插入 <code>source/downloads/code</code> 文件夹内的代码文件。<code>source/downloads/code</code> 不是固定的，取决于你在配置文件中 <code>code_dir</code> 的配置。</p>
 <pre class="line-numbers language-none"><code class="language-none">&#123;% include_code [title] [lang:language] [from:line] [to:line] path&#x2F;to&#x2F;file %&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<h3 id="样例-1"><a href="#样例-1" class="headerlink" title="样例"></a>样例</h3><p><strong>嵌入 test.js 文件全文</strong></p>
+<h3 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h3><p><strong>嵌入 test.js 文件全文</strong></p>
 <pre class="line-numbers language-none"><code class="language-none">&#123;% include_code lang:javascript test.js %&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p><strong>只嵌入第 3 行</strong></p>
 <pre class="line-numbers language-none"><code class="language-none">&#123;% include_code lang:javascript from:3 to:3 test.js %&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
