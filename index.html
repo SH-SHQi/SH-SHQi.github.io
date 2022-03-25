@@ -626,43 +626,108 @@
 
 
 
-<div class="swiper-length" style="display: none;">0</div>
+<div class="swiper-length" style="display: none;">2</div>
 <div id="appSwiper"
-  class="swiper-no-swiping"
+  class=""
   @mouseenter="stopAutoPlay()" 
   @mouseleave="startAutoPlay()"
 >
   <swiper v-cloak ref="mySwiper" :options="swiperOptions" @slideChangeTransitionEnd="slideChangeTransitionEnd">
     
-      <swiper-slide>
-        <div class="item swiper-lazy" data-background="https://img11.360buyimg.com/ddimg/jfs/t1/160978/33/20686/2476596/6083e62dEa588862b/63f8f2163ab61b2f.png" style="background-size: 300000px; 
-          background-position: left center;" style="position: relative;">
-          <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
-            <div class="flag">
-              
-              <div class="img-mask swiper-lazy swiper-default-bgImg" data-background="https://img11.360buyimg.com/ddimg/jfs/t1/160978/33/20686/2476596/6083e62dEa588862b/63f8f2163ab61b2f.png" style="height: 100%; background-size: cover; 
-                background-position: center center;">
-                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>   
-              </div>
-              <div class="flag-text">
-                <div class="flag-text-content">
-                  <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">红楼一梦半生缘</div>
-                  
-                      <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"></div>
-                    
+      
+        <swiper-slide>
+          <div class="item swiper-lazy" data-background="https://img11.360buyimg.com/ddimg/jfs/t1/160978/33/20686/2476596/6083e62dEa588862b/63f8f2163ab61b2f.png" style="background-size: 300000px; 
+            background-position: left center;" style="position: relative;">
+            <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
+              <div class="flag">
+                
+                <div class="img-mask swiper-lazy swiper-default-bgImg" data-background="https://img11.360buyimg.com/ddimg/jfs/t1/160978/33/20686/2476596/6083e62dEa588862b/63f8f2163ab61b2f.png" style="height: 100%; background-size: cover; 
+                  background-position: center center;">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>   
                 </div>
-                <div style="display: flex;" class="flag-text-btns">
-                  
-                    <div class="ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="https://sh-shqi.github.io/categories/Technology/" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">科技向</a></div>
-                  
-                  
-                    <div class="ani animated" style="margin-left: 10px;" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="https://sh-shqi.github.io/categories/Humanities/" class="read-more swiper-btn-color2" style="display: inline-block; z-index:1;border: 1px solid white;">人文向</a></div>
-                  
+                <div class="flag-text">
+                  <div class="flag-text-content">
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">红楼一梦半生缘</div>
+                    
+                        <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"></div>
+                      
+                  </div>
+                  <div style="display: flex;" class="flag-text-btns">
+                    
+                      <div class="ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="https://sh-shqi.github.io/categories/Technology/" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">科技向</a></div>
+                    
+                    
+                      <div class="ani animated" style="margin-left: 10px;" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="https://sh-shqi.github.io/categories/Humanities/" class="read-more swiper-btn-color2" style="display: inline-block; z-index:1;border: 1px solid white;">人文向</a></div>
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+        </swiper-slide>
+      
+      
+        
+        
+          
+          <swiper-slide>
+            <div class="item swiper-lazy" data-background="/medias/5.jpg" style=" background-size: 300000px; 
+            background-position: left center;" style="position: relative;">
+              <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
+              <div class="flag" style="z-index: 2;">
+                <div class="img-mask swiper-lazy" data-background="/medias/5.jpg" style="height: 100%; background-size: cover; 
+                  background-position: center center;">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>  
+                </div>
+                <div class="flag-text">
+                  <div class="flag-text-content">
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                      <a href="/2022/03/23/hexo-bo-ke-shu-xie-cao-zuo-zhi-nan/">
+                        HEXO博客书写操作指南
+                      </a>
+                    </div>
+                    <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">1.说在前头1.1.准备工作想来用Nodejs和Git来搭建Hexo的博客真的废了我很大功夫，明明是按着视频步骤来的，可是老是有一些莫名其妙的错误出来，幸好在诸如CSDN等论坛上可以找得到方法解决，最后用了差不多将近两天才搭建完成。
+1.2</div>
+                  </div>
+                  <div class="bottom-one-btn ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="/2022/03/23/hexo-bo-ke-shu-xie-cao-zuo-zhi-nan/" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">Read More</a></div>
                 </div>
               </div>
             </div>
-          </div>
-      </swiper-slide>
+
+          </swiper-slide>
+        
+      
+        
+        
+          
+          <swiper-slide>
+            <div class="item swiper-lazy" data-background="/medias/7.jpg" style=" background-size: 300000px; 
+            background-position: left center;" style="position: relative;">
+              <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
+              <div class="flag" style="z-index: 2;">
+                <div class="img-mask swiper-lazy" data-background="/medias/7.jpg" style="height: 100%; background-size: cover; 
+                  background-position: center center;">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>  
+                </div>
+                <div class="flag-text">
+                  <div class="flag-text-content">
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                      <a href="/2022/03/22/hello-world/">
+                        Hello World
+                      </a>
+                    </div>
+                    <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex</div>
+                  </div>
+                  <div class="bottom-one-btn ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="/2022/03/22/hello-world/" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">Read More</a></div>
+                </div>
+              </div>
+            </div>
+
+          </swiper-slide>
+        
+      
+    <div class="swiper-pagination" slot="pagination" pointer style=""></div>
+    <div class="swiper-button-prev swiper-button-white" pointer slot="button-prev" style=""></div>
+    <div class="swiper-button-next swiper-button-white" pointer slot="button-next" style=""></div>
     
   </swiper>
   
@@ -676,7 +741,7 @@
 </div>
 
 <script>
-  var autoplay = JSON.parse('false');
+  var autoplay = JSON.parse('true');
   var delay = '5000';
   var loop = JSON.parse('true') ? false : JSON.parse('true');
   var effect = 'slide';
@@ -1735,7 +1800,7 @@
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Fri Mar 25 2022 16:46:26 GMT+0800 (中国标准时间)</div>
+            <div id="last-update" style="display: none;">Fri Mar 25 2022 16:52:31 GMT+0800 (中国标准时间)</div>
             <div id="last-update-show">2022-03-25 日</div>
           
         </div>
