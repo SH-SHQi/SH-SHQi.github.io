@@ -61,11 +61,11 @@
     
     
     
+    <category term="Humanities" scheme="https://sh-shqi.github.io/categories/Humanities/"/>
+    
     <category term="Technology" scheme="https://sh-shqi.github.io/categories/Technology/"/>
     
     <category term="Hexo" scheme="https://sh-shqi.github.io/categories/Technology/Hexo/"/>
-    
-    <category term="Humanities" scheme="https://sh-shqi.github.io/categories/Humanities/"/>
     
     
     <category term="Hexo" scheme="https://sh-shqi.github.io/tags/Hexo/"/>
